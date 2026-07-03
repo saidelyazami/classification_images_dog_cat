@@ -7,7 +7,7 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'elyazami_model_cats_dogs.h5')
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'model_cats_dogs.h5')
 
 @st.cache_resource
 def load_model():
